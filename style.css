@@ -90,7 +90,6 @@ body {
     height: 50%;
     background-color: var(--human-color);
     mask: url("./human-clean.png") center / contain no-repeat;
-    /* background: linear-gradient(110deg, #303743, #1e242d 40%, #252c36); */
 
     animation-name: y-human;
     animation-duration: var(--time);
@@ -103,7 +102,6 @@ body {
     height: 50%;
     background-color: var(--human-color);
     mask: url("./human-clean.png") center / contain no-repeat;
-    /* background: linear-gradient(110deg, #303743, #1e242d 40%, #252c36); */
 
     animation-name: g-human;
     animation-duration: var(--time);
@@ -119,14 +117,12 @@ body {
 
 @keyframes y-human {
     0% {transform: translateY(225px);}
-    /* 0% {transform: translateY(-225px);} */
     50% {transform: translateY(-225px);}
     100% {transform: translateY(225px);}
 }
 
 @keyframes g-human {
     0% {transform: translateY(0px);}
-    /* 0% {transform: translateY(-450px);} */
     50% {transform: translateY(-450px);}
     100% {transform: translateY(0px);}
 }
